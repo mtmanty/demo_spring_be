@@ -1,0 +1,49 @@
+# Java and Spring Boot specific
+target/             # Maven build output directory
+*.class             # Compiled Java class files
+*.jar               # JAR files (if not needed in version control)
+*.war               # WAR files
+*.log               # Log files
+.DS_Store           # macOS system file
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE specific
+.idea/              # IntelliJ IDEA files (if you use IntelliJ)
+*.iml               # IntelliJ module files
+.vscode/            # VSCode settings (optional)
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Dependency directories (if using Gradle)
+build/              # Gradle build output
+.gradle/            # Gradle configuration
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Environment files
+.env                # Environment variables (if using dotenv)
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
